@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -16525,7 +16525,7 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <part name="D1" library="diode" deviceset="DIODE-" device="DO-214AC"/>
 <part name="D2" library="dp_devices" deviceset="ZENER" device="SOD-323F"/>
 <part name="GND8" library="supply" deviceset="GND" device=""/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="4k7"/>
 <part name="Q1" library="transistor-power" deviceset="N-MOSFET-SO8" device="S"/>
 <part name="U4" library="DCDC" deviceset="TPS5450" device=""/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="10nF X5R"/>
