@@ -1162,8 +1162,8 @@ design rules under a new name.</description>
 <element name="R6" library="rcl" package="R0603" value="10k" x="38.25875" y="35.2425" rot="R90"/>
 <element name="R7" library="rcl" package="R0603" value="1k" x="36.03625" y="35.2425" rot="R270"/>
 <element name="D4" library="dp_devices" package="SOD-323F" value="" x="34.13125" y="35.2425" rot="R90"/>
-<element name="R3" library="rcl" package="R0603" value="" x="27.46375" y="38.4175" rot="R270"/>
-<element name="C1" library="rcl" package="C0603" value="10nF" x="29.5275" y="38.4175" rot="R270"/>
+<element name="R3" library="rcl" package="R0603" value="100" x="27.46375" y="38.4175" rot="R270"/>
+<element name="C1" library="rcl" package="C0603" value="100nF" x="29.5275" y="38.4175" rot="R270"/>
 <element name="C8" library="rcl" package="E5-10,5" value="" x="6.6675" y="28.2575" rot="R90"/>
 <element name="C13" library="rcl" package="E5-10,5" value="100uF 50V" x="18.7325" y="37.1475" rot="R270"/>
 <element name="U$3" library="misc" package="POWERCONN-4" value="POWERCONN-4" x="20" y="57.4675"/>

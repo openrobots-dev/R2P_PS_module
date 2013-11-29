@@ -16568,8 +16568,8 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <part name="GND39" library="supply" deviceset="GND" device=""/>
 <part name="D4" library="dp_devices" deviceset="ZENER" device="SOD-323F"/>
 <part name="GND41" library="supply" deviceset="GND" device=""/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0603"/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="10nF"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="100"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="GND9" library="supply" deviceset="GND" device=""/>
 <part name="C8" library="rcl" deviceset="CPOL-EU" device="E5-10.5"/>
 <part name="C13" library="rcl" deviceset="CPOL-EU" device="E5-10.5" value="100uF 50V"/>
