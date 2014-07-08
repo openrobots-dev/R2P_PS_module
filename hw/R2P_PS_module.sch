@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -16525,7 +16525,7 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <part name="D1" library="diode" deviceset="DIODE-" device="DO-214AC"/>
 <part name="D2" library="dp_devices" deviceset="ZENER" device="SOD-323F"/>
 <part name="GND8" library="supply" deviceset="GND" device=""/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="4k7"/>
 <part name="Q1" library="transistor-power" deviceset="N-MOSFET-SO8" device="S"/>
 <part name="U4" library="DCDC" deviceset="TPS5450" device=""/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="10nF X5R"/>
@@ -16631,8 +16631,8 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <wire x1="383.54" y1="185.42" x2="383.54" y2="106.68" width="0.1524" layer="94"/>
 <wire x1="383.54" y1="106.68" x2="292.1" y2="106.68" width="0.1524" layer="94"/>
 <wire x1="292.1" y1="106.68" x2="292.1" y2="185.42" width="0.1524" layer="94"/>
-<text x="294.64" y="180.34" size="2.54" layer="94">POWER ORING</text>
-<text x="154.94" y="96.52" size="2.54" layer="94">POWER ORING</text>
+<text x="294.64" y="180.34" size="2.54" layer="94">BATTERY VOLTAGE</text>
+<text x="154.94" y="96.52" size="2.54" layer="94">CURRENT SENSE</text>
 <wire x1="152.4" y1="101.6" x2="287.02" y2="101.6" width="0.1524" layer="94"/>
 <wire x1="287.02" y1="101.6" x2="287.02" y2="53.34" width="0.1524" layer="94"/>
 <wire x1="287.02" y1="53.34" x2="152.4" y2="53.34" width="0.1524" layer="94"/>
@@ -16717,18 +16717,18 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <instance part="C23" gate="G$1" x="309.88" y="228.6"/>
 <instance part="R24" gate="G$1" x="317.5" y="226.06" rot="R90"/>
 <instance part="R25" gate="G$1" x="317.5" y="210.82" rot="R90"/>
-<instance part="C24" gate="G$1" x="226.06" y="228.6"/>
-<instance part="C25" gate="G$1" x="220.98" y="228.6"/>
-<instance part="C32" gate="G$1" x="231.14" y="228.6"/>
+<instance part="C24" gate="G$1" x="223.52" y="228.6"/>
+<instance part="C25" gate="G$1" x="213.36" y="228.6"/>
+<instance part="C32" gate="G$1" x="233.68" y="228.6"/>
 <instance part="C33" gate="G$1" x="198.12" y="218.44"/>
 <instance part="L1" gate="G$1" x="297.18" y="233.68"/>
 <instance part="D3" gate="G$1" x="289.56" y="226.06" rot="R90"/>
 <instance part="TVSD3" gate="G$1" x="185.42" y="162.56" rot="R180"/>
 <instance part="GND13" gate="1" x="185.42" y="172.72" rot="R180"/>
 <instance part="GND14" gate="1" x="198.12" y="210.82"/>
-<instance part="GND23" gate="1" x="220.98" y="220.98"/>
-<instance part="GND24" gate="1" x="226.06" y="220.98"/>
-<instance part="GND25" gate="1" x="231.14" y="220.98"/>
+<instance part="GND23" gate="1" x="213.36" y="220.98"/>
+<instance part="GND24" gate="1" x="223.52" y="220.98"/>
+<instance part="GND25" gate="1" x="233.68" y="220.98"/>
 <instance part="GND26" gate="1" x="254" y="208.28"/>
 <instance part="GND27" gate="1" x="256.54" y="208.28"/>
 <instance part="GND28" gate="1" x="289.56" y="220.98"/>
@@ -17596,19 +17596,19 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <junction x="198.12" y="233.68"/>
 <wire x1="198.12" y1="233.68" x2="190.5" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="VIN"/>
-<wire x1="238.76" y1="233.68" x2="231.14" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="233.68" x2="233.68" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="C25" gate="G$1" pin="1"/>
-<wire x1="231.14" y1="233.68" x2="226.06" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="233.68" x2="220.98" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="231.14" x2="220.98" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="233.68" x2="223.52" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="233.68" x2="213.36" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="231.14" x2="213.36" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="C24" gate="G$1" pin="1"/>
-<wire x1="226.06" y1="231.14" x2="226.06" y2="233.68" width="0.1524" layer="91"/>
-<junction x="226.06" y="233.68"/>
+<wire x1="223.52" y1="231.14" x2="223.52" y2="233.68" width="0.1524" layer="91"/>
+<junction x="223.52" y="233.68"/>
 <pinref part="C32" gate="G$1" pin="1"/>
-<wire x1="231.14" y1="231.14" x2="231.14" y2="233.68" width="0.1524" layer="91"/>
-<junction x="231.14" y="233.68"/>
-<wire x1="198.12" y1="233.68" x2="220.98" y2="233.68" width="0.1524" layer="91"/>
-<junction x="220.98" y="233.68"/>
+<wire x1="233.68" y1="231.14" x2="233.68" y2="233.68" width="0.1524" layer="91"/>
+<junction x="233.68" y="233.68"/>
+<wire x1="198.12" y1="233.68" x2="213.36" y2="233.68" width="0.1524" layer="91"/>
+<junction x="213.36" y="233.68"/>
 <label x="185.42" y="233.68" size="1.778" layer="95"/>
 <pinref part="C13" gate="G$1" pin="+"/>
 <wire x1="187.96" y1="220.98" x2="198.12" y2="220.98" width="0.1524" layer="91"/>
